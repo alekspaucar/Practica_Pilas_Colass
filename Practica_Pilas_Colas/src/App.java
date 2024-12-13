@@ -5,10 +5,7 @@ import java.util.Stack;
 public class App {
 
     public static void main(String[] args) throws Exception {
-        // Ejercicio 1: Validación de Signos
         runSignValidator();
-
-        // Ejercicio 2: Ordenar Stack
         Stack<Integer> stack = new Stack<>();
         stack.push(5);
         stack.push(1);
