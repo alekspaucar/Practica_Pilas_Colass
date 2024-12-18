@@ -4,6 +4,7 @@ import java.util.Stack;
 
 public class OrdenarStack {
     public static void ordenar(Stack<Integer> stack) {
+        
         Stack<Integer> auxiliar = new Stack<>();
 
         while (!stack.isEmpty()) {

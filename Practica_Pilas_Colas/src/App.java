@@ -6,6 +6,7 @@ public class App {
 
     public static void main(String[] args) throws Exception {
         runSignValidator();
+        
         Stack<Integer> stack = new Stack<>();
         stack.push(5);
         stack.push(1);

@@ -3,6 +3,7 @@ package Ejercicio_01_sign;
 import java.util.Stack;
 
 public class ValidacionSignos {
+    
     public static boolean esValido(String s) {
         Stack<Character> pila = new Stack<>();
 
